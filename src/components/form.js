@@ -1,12 +1,28 @@
-import React from 'react';
+import React from "react";
+import ReactDOM from "react-dom";
+import useForm from "react-hook-form";
 
 
-function form_input() {
-    return (
-      <div>
-   
-      </div>
-    );
-  }
-  
-  export default form_input;
+export function form_input() {
+  const onSubmit = data => {
+    alert(JSON.stringify(data));
+  };
+
+  return (
+    <form className="App" onSubmit={onSubmit}>
+      <h1>Sign Up</h1>
+      <label>First Name:</label>
+      <input name="firstName" />
+      <label>Last Name:</label>
+      <input name="firstName" />
+
+      <label>Email</label>
+      <input name="email" />
+
+      <input type="submit" />
+    </form>
+  );
+}
+
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<App />, rootElement);

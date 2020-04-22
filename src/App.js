@@ -18,6 +18,16 @@ function App() {
         <div className="input_container">
           <p className="text">SIGN UP FOR THIS
 LIMITED TIME OFFER!</p>
+          <form className="App">
+          <label>First Name</label>
+          <input name="firstName" />
+          <label>Last Name</label>
+          <input name="firstName" />
+          <label>Email</label>
+          <input name="email" />
+          <input type="submit" />
+          {/* <label>YOU'RE ON THE LIST!</label> alert for when the name has been submitted */}
+        </form>
         </div>
         
       </div>
