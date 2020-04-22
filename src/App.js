@@ -1,21 +1,22 @@
 import React from 'react';
 import './App.css';
+import form_input from './components/form'
 
 
   
 function App() {
   return (
-    <div className="page_container">
     <div className="header_container">
       <div className="left_container">
           <h1>yWaldo</h1>
-          <p>SIGN UP TODAY TO EARN THE HIGHEST COMMISSIONS</p>
+      <div className="title">
+        SIGN UP TODAY TO EARN THE HIGHEST COMMISSIONS
+      </div>
       </div>  
       <div className="right_container">
-          <div className="input_form"></div>
-          <p>SIGN UP TODAY TO EARN THE HIGHEST COMMISSIONS</p>
+        <div className="input_container"><form_input/></div>
+        
       </div>
-    </div>
     </div>
   );
 }
