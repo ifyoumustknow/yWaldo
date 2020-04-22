@@ -10,11 +10,15 @@ function App() {
       <div className="left_container">
           <h1>yWaldo</h1>
       <div className="title">
-        SIGN UP TODAY TO EARN THE HIGHEST COMMISSIONS
+     Earn the Highest Commission 
+     and Save on Every Redemption
       </div>
       </div>  
       <div className="right_container">
-        <div className="input_container"><form_input/></div>
+        <div className="input_container">
+          <p className="text">SIGN UP FOR THIS
+LIMITED TIME OFFER!</p>
+        </div>
         
       </div>
     </div>

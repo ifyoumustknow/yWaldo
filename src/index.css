@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato-Bold'), url(./fonts/Lato-Bold.ttf) format('truetype');
+
+}
